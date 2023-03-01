@@ -16,27 +16,31 @@
         <title>Project-F8-02</title>
     </head>
 
-    <body style="height: 8000px">
+    <body>
         <!-- Header -->
-        <header class="header">
+        <header class="header fixed">
             <div class="content">
-                <nav class="navbar">
+                <div class="navbar">
                     <!-- Logo -->
-                    <a href="/">
+                    <a href="#">
                         <img src="./asset/img/logo.svg" alt="Lesson" />
                     </a>
 
-                    <!-- Navigation -->
-                    <ul>
-                        <li><a href="#!">Home</a></li>
-                        <li><a href="#course">Courses</a></li>
-                        <li><a href="#!">Pricing</a></li>
-                        <li><a href="#!">Reviews</a></li>
-                    </ul>
+                    <div class="nav">
+                        <!-- Navigation -->
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#course">Courses</a></li>
+                            <li><a href="#!">Pricing</a></li>
+                            <li><a href="#!">Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Action -->
                     <div class="action">
                         <a href="#!" class="btn action-btn">Sign Up</a>
                     </div>
-                </nav>
+                </div>
             </div>
         </header>
 
@@ -301,24 +305,158 @@
             </div>
 
             <!-- Features -->
-                <!-- Features 1 -->
-                <div class="features">
-                    <div class="content">
-                        <div class="body">
-                            <div class="images">
-                                <img src="./asset/img/outcomes-1.png" alt="">
-                                <img class="lower" src="./asset/img/outcomes-2.jfif" alt="">
-                            </div>
+            <!-- Features 1 -->
+            <div class="features">
+                <div class="content">
+                    <div class="body">
+                        <div class="images">
+                            <img src="./asset/img/outcomes-1.png" alt="" />
+                            <img
+                                class="lower"
+                                src="./asset/img/outcomes-2.jfif"
+                                alt=""
+                            />
+                        </div>
 
-                            <div class="sub-content">
-                                <h2 class="heading lv1">Learner outcomes through our awesome platform</h2>
-                                <p class="desc">87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career.</p>
-                                <p class="desc lv2">Lesson Impact Report (2022)</p>
-                                <a href="#!" class="btn cta-btn">Sign Up</a>
+                        <div class="sub-content">
+                            <h2 class="heading lv2">
+                                Learner outcomes through our awesome platform
+                            </h2>
+                            <p class="desc">
+                                87% of people learning for professional
+                                development report career benefits like getting
+                                a promotion, a raise, or starting a new career.
+                            </p>
+                            <p class="desc lv2">Lesson Impact Report (2022)</p>
+                            <a href="#!" class="btn cta-btn">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features 2 -->
+            <div class="features features-2">
+                <div class="content">
+                    <div class="body">
+                        <div class="sub-content">
+                            <h2 class="heading lv2">
+                                Take the next step toward your personal and
+                                professional goals with Lesson.
+                            </h2>
+                            <p class="desc lv2">
+                                Take the next step toward. Join now to receive
+                                personalized and more recommendations from the
+                                full Coursera catalog.
+                            </p>
+                            <button class="btn cta-btn">Join Now</button>
+                        </div>
+                        <div class="img">
+                            <img src="./asset/img/features2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog -->
+            <div class="blog">
+                <div class="content">
+                    <div class="blog-top">
+                        <h2 class="heading lv2">Our blog</h2>
+                        <p class="desc">
+                            Read our regular travel blog and know the latest
+                            update of tour and travel
+                        </p>
+                    </div>
+
+                    <div class="blog-list">
+                        <!-- Blog item 1 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img src="./asset/img/blog-1.jpg" alt="" />
+                            </a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    How to become a pro web designer in 2022 and
+                                    get remot job?
+                                </h3>
+                                <a href="" class="btn active">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog item 2 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img src="./asset/img/blog-2.jpg" alt="" />
+                            </a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    How to become a pro web designer in 2022 and
+                                    get remot job?
+                                </h3>
+                                <a href="" class="btn active">Read More</a>
+                            </div>
+                        </div>
+
+                        <!-- Blog item 3 -->
+                        <div class="item">
+                            <a href="#!">
+                                <img src="./asset/img/blog-3.jpg" alt="" />
+                            </a>
+                            <div class="info">
+                                <span class="date">21 November 2021</span>
+                                <h3 class="title">
+                                    How to become a pro web designer in 2022 and
+                                    get remot job?
+                                </h3>
+                                <a href="" class="btn active">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </main>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="content">
+                <div class="footer-list">
+                    <!-- Item-1 -->
+                    <div class="columns-1">
+                        <a href="">
+                            <img src="./asset/img/logo.svg" alt="Lesson." />
+                        </a>
+                        <p class="desc">
+                            Need to help for your dream Career? trust us. With
+                            Lesson, study becomes a lot easier with us.
+                        </p>
+                        <div class="group-icon">
+                            <a href="#!"><img class= "icon" src="./asset/img/Twitter.svg" alt="Twitter" /></a>
+                            <a href="#!"><img class= "icon" src="./asset/img/Facebook.svg" alt="Facebook" /></a>
+                            <a href="#!"><img class= "icon" src="./asset/img/Linkedin.svg" alt="Linkedin" /></a>
+                            <a href="#!"><img class= "icon" src="./asset/img/instagram.svg" alt="instagram" /></a>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <h2 class="title"></h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+
+<!-- Note Hero 
+    ===== Cac khoi thi trong 1 div thi padding con phan tu trong khoi thi margin
+1. Dung chung class desc 
+2. 50, 70 vao strong
+3. Do rong media-block va content-block chia theo % (48-52)
+4. hero summary padding right = 0 
+5. Tai sao lai la padding-left: 230px; o content-block
+6. hover cho btn opacity 0.9 
+7. padding tren  cho doan van duoi h1 22px
+8. Can ngang lai cho icon watch-video
+-->
